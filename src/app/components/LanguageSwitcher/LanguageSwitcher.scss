@@ -1,3 +1,21 @@
+@use "../../scss/constants" as *;
+
 .language-switcher {
-    background-color: blue;
+    padding-top: 20px;
+    background-color: $black_background;
+
+    &__title {
+        text-align: center;
+    }
+
+    &__languages {
+        display: flex;
+        justify-content: space-around;
+
+        &__language-button {
+            width: 40%;
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+    }
 }

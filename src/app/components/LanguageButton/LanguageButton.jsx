@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 import Button from '@mui/material/Button';
 
-const LanguageButton = ({ lng }) => {
+const LanguageButton = ({ lng, text }) => {
   const router = useRouter()
 
   const handleChangeLanguage = () => {
@@ -12,8 +12,8 @@ const LanguageButton = ({ lng }) => {
   }
 
   return (
-    <Button variant="contained" onClick={handleChangeLanguage}>
-      {lng}
+    <Button className="language-button" variant="outlined" onClick={handleChangeLanguage}>
+      {text}
     </Button>
   )
 }
