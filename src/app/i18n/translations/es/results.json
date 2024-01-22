@@ -1,0 +1,22 @@
+{
+    "abnegation": {
+        "faction": "Abnegación",
+        "explanation": "No te gusta llamar la atención sobre ti mismo y te preocupas más por la satisfacción de los demás que por la tuya propia. Encuentras alegría y plenitud en hacer a otras personas más felices, seguras y saludables. Crees que el mundo sería un lugar mejor si el egoísmo no fuera tan común. Los demás te ven como alguien un poco difícil de conocer, pero también como alguien tranquilo y amable."
+    },
+    "amity": {
+        "faction": "Cordialidad",
+        "explanation": "Estás en paz cuando las personas a tu alrededor se llevan bien. Aprecias la música y las artes, y es fácil hacerte reír. Uno de tus objetivos es encontrar la mayor felicidad posible. Crees que la agresión y la hostilidad son responsables de la mayoría de los problemas del mundo. Otros te ven a veces como alguien caprichoso o indeciso, pero también como relajado y cálido."
+    },
+    "candor": {
+        "faction": "Verdad",
+        "explanation": "Eres honesto con todos, sin importar lo difícil que sea, y sin importar cuántos problemas te cause. No te ofendes fácilmente y preferirías escuchar la verdad incluso si duele. Crees que si todos pudieran ser honestos y sinceros entre ellos, el mundo sería un lugar mucho mejor. Los demás te ven a veces como insensible, pero también como alguien de confianza y seguro de sí mismo."
+    },
+    "dauntless": {
+        "faction": "Osadía",
+        "explanation": "Te encanta la emoción de la adrenalina y no dejas que otras personas dicten tu comportamiento. Haces lo que crees que es correcto, sin importar cuán difícil o aterrador sea. Crees que el mundo sería mejor si las personas no tuvieran miedo de hacer lo necesario para corregir las cosas. Otros te ven a menudo como alguien abrasivo, pero también como fuerte y valiente."
+    },
+    "erudite": {
+        "faction": "Erudición",
+        "explanation": "Disfrutas aprendiendo cosas nuevas y tratas de entender cómo funciona todo. Tiendes a tomar decisiones basadas en la lógica en lugar del instinto o las emociones. Crees que el mundo sería un lugar mejor si todos estuvieran bien educados y dedicados al aprendizaje. Los demás te ven a veces como condescendiente, pero también como alguien inteligente e perspicaz."
+    }
+}
