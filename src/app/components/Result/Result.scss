@@ -1,0 +1,55 @@
+@use "@/app/scss/constants" as *;
+
+.result {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100dvh;
+
+    &__top-container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        &__faction {
+            font-size: 60px;
+            margin-bottom: 20px;
+        }
+    
+        &__divider {
+            border-bottom: 2px solid $yellow_stroke;
+            width: 100dvw;
+            margin-bottom: 40px;
+        }
+    
+        &__explanation {
+            font-size: 30px;
+        }
+    }
+
+    &__home-container {
+        display: flex;
+        justify-content: end;
+        width: 100dvw;
+        margin-bottom: 3%;
+        margin-right: 2%;
+
+        &__button {
+            display: flex;
+            justify-content: center;
+            border: 1px solid $yellow_stroke;
+            font-weight: bold;
+            font-size: 20px;
+            width: 30%;
+            padding: 10px;
+            cursor: pointer;
+            
+            &__text {
+                font-size: 20px;
+                text-align: center;
+                color: white;
+            }
+        }
+    }
+}
