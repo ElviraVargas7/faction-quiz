@@ -1,5 +1,6 @@
 "use client"
 import Question from "@/app/components/Question/Question";
+import Result from "@/app/components/Result/Result";
 import React, { useEffect, useState } from "react";
 
 export default function Quiz({ params: { lng } }) {
@@ -9,8 +10,8 @@ export default function Quiz({ params: { lng } }) {
 
     useEffect(() => {
         const order = getQuestionsOrder()
+        setCurrentQuestion(order.pop())
         setQuestionsOrder(order)
-        setCurrentQuestion(order[0])
     }, [])
 
     const getQuestionsOrder = () => {
@@ -29,14 +30,19 @@ export default function Quiz({ params: { lng } }) {
     const handleSelectAnswer = (letter) => {
         const currentAnswers = [...answers, letter]
         setAnswers(currentAnswers)
+        const currentOrder = questionsOrder
+        setCurrentQuestion(currentOrder.pop())
+        setQuestionsOrder(currentOrder)
     }
 
     return (
       <div>
-        {currentQuestion !== 0 ? (
-                <Question lng={lng} questionNumber={currentQuestion} handleSelectAnswer={handleSelectAnswer} />
-            ) : (
+        {currentQuestion === 0 ? (
                 <p>Loading...</p>
+            ) : currentQuestion === undefined ? (
+                <Result lng={lng} answers={answers} />
+            ) : (
+                <Question lng={lng} questionNumber={currentQuestion} handleSelectAnswer={handleSelectAnswer} />
             )
         }
       </div>
