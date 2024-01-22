@@ -1,11 +1,9 @@
-import LanguageSwitcher from '../components/LanguageSwitcher/LanguageSwitcher';
-import StartButton from '../components/StartButton/StartButton';
+import Home from "./home/Home";
 
-export default function Home({ params: { lng } }) {
+export default function Page({ params: { lng } }) {
   return (
     <main>
-      <LanguageSwitcher lng={lng} />
-      <StartButton lng={lng}/>
+      <Home lng={lng} />
     </main>
   );
 }

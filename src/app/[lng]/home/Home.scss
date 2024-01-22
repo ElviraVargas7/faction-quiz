@@ -1,0 +1,14 @@
+.home {
+    height: 100dvh;
+
+    &__language {
+        height: 30%;
+    }
+
+    &__start {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70%;
+    }
+}
