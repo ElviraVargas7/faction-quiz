@@ -1,6 +1,6 @@
-@use "../../scss/constants" as *;
+@use "@/app/scss/constants" as *;
 
-.language-button {
+.start-button {
     color: $yellow_stroke;
     font-weight: bold;
     font-size: 20px;

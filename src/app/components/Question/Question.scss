@@ -1,0 +1,40 @@
+@use "@/app/scss/constants" as *;
+
+.question {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    height: 100dvh;
+
+    &__title {
+        width: 30%;
+    }
+
+    &__answers {
+        height: 80%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        width: 50%;
+    }
+
+    &__divider {
+        border-left: 2px solid $yellow_stroke;
+        height: 100dvh;
+    }
+}
+
+.answer {
+    display: flex;
+    justify-content: center;
+    border: 1px solid $yellow_stroke;
+    width: 80%;
+    padding: 10px;
+
+    &__text {
+        font-size: 20px;
+        text-align: center;
+    }
+}

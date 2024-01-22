@@ -3,7 +3,7 @@
 import "./LanguageSwitcher.scss"
 import React from 'react'
 import { useTranslation } from '@/app/i18n/client'
-import LanguageButton from "../LanguageButton/LanguageButton";
+import SettingsButton from "../SettingsButton/SettingsButton";
 
 const LanguageSwitcher = ({ lng }) => {
     const { t } = useTranslation(lng, 'language')
@@ -13,10 +13,10 @@ const LanguageSwitcher = ({ lng }) => {
             <h1 className="language-switcher__title">{t("title")}</h1>
             <div className="language-switcher__languages">
                 <div className="language-switcher__languages__language-button">
-                    <LanguageButton lng={"en"} text={"ENGLISH"} />
+                    <SettingsButton url={"en"} text={"ENGLISH"} />
                 </div>
                 <div className="language-switcher__languages__language-button">
-                    <LanguageButton lng={"es"} text={"ESPAÑOL"} />
+                    <SettingsButton url={"es"} text={"ESPAÑOL"} />
                 </div>
             </div>
         </div>

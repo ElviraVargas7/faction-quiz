@@ -1,0 +1,58 @@
+{
+    "1": {
+        "question": "Querrías que tus amigos y familiares te vean como alguien que...",
+        "a": "Está dispuesto a hacer sacrificios y ayudar a cualquiera que lo necesite.",
+        "b": "Es querido por todos.",
+        "c": "Es de confianza.",
+        "d": "Los protegerá pase lo que pase.",
+        "e": "Ofrece consejos sabios."
+    },
+    "2": {
+        "question": "Hacer lo que sea mejor para la mayor cantidad de personas.",
+        "a": "Hacer lo que sea mejor para la mayor cantidad de personas.",
+        "b": "Crear una obra de arte que exprese tus sentimientos sobre la situación.",
+        "c": "Debatir el tema con tus amigos.",
+        "d": "Enfrentarlo directamente. ¿Qué más harías?",
+        "e": "Hacer una lista de pros y contras, y luego elegir la opción que la evidencia respalde mejor."
+    },
+    "3": {
+        "question": "¿Qué actividad es más probable que hagas durante el fin de semana o en un día libre inesperado?",
+        "a": "Voluntariado.",
+        "b": "Pintar, bailar o escribir poesía.",
+        "c": "Compartir opiniones con tus amigos.",
+        "d": "¡Escalada en roca o paracaidismo!",
+        "e": "Ponerse al día con tus tareas o leer por placer."
+    },
+    "4": {
+        "question": "Si tuvieras que elegir una de las siguientes opciones como profesión, ¿cuál elegirías?",
+        "a": "Humanitario",
+        "b": "Granjero",
+        "c": "Juez",
+        "d": "Bombero",
+        "e": "Científico"
+    },
+    "5": {
+        "question": "Al elegir tu atuendo del día, seleccionas...",
+        "a": "Lo que atraerá la menor cantidad de atención.",
+        "b": "Algo cómodo, pero interesante de ver.",
+        "c": "Algo que sea simple, pero que aún exprese tu personalidad.",
+        "d": "Lo que atraerá la mayor cantidad de atención.",
+        "e": "Algo que no te distraiga ni te impida hacer lo que tienes que hacer ese día."
+    },
+    "6": {
+        "question": "Si descubrieras que la pareja de un amigo está siendo infiel, tú...",
+        "a": "Le dirías a tu amigo porque sientes que sería perjudicial para él o ella continuar en una relación donde existe ese comportamiento egoísta.",
+        "b": "Los sentarías a ambos para actuar como mediador cuando lo hablen.",
+        "c": "Le dirías a tu amigo lo antes posible. No puedes imaginar guardar ese conocimiento en secreto.",
+        "d": "¡Confrontarías al tramposo! También podrías tomar medidas cortando las llantas del tramposo o tirándole huevos a su casa, ¡todo en nombre de proteger a tu amigo, por supuesto!",
+        "e": "Te lo guardarías. Las estadísticas demuestran que tu amigo se enterará eventualmente."
+    },
+    "7": {
+        "question": "¿Cuál dirías que es tu máxima prioridad en la vida en este momento?",
+        "a": "Servir a quienes te rodean.",
+        "b": "Encontrar paz y felicidad para ti mismo.",
+        "c": "Buscar la verdad en todas las cosas.",
+        "d": "Desarrollar tu fuerza de carácter.",
+        "e": "Éxito en el trabajo o en la escuela."
+    }
+}
