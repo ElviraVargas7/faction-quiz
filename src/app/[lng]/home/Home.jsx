@@ -1,7 +1,7 @@
 import "./Home.scss"
 import React from "react";
-import LanguageSwitcher from '@/app/components/LanguageSwitcher/LanguageSwitcher';
-import StartButton from '@/app/components/StartButton/StartButton';
+import LanguageSwitcher from '../../components/LanguageSwitcher/LanguageSwitcher';
+import CustomizedButton from '../../components/CustomizedButton/CustomizedButton';
 
 const Home = ({ lng }) => {
     return (
@@ -11,7 +11,7 @@ const Home = ({ lng }) => {
             </div>
 
             <div className="home__start">
-                <StartButton lng={lng}/>
+                <CustomizedButton lng={lng}/>
             </div>
         </div>
     )

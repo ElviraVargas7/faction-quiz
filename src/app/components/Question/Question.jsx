@@ -1,6 +1,6 @@
 import "./Question.scss"
 import React from 'react'
-import { useTranslation } from '@/app/i18n/client'
+import { useTranslation } from '../../i18n/client'
 
 const Question = ({ lng, questionNumber, handleSelectAnswer }) => {
   const { t } = useTranslation(lng, 'questions')
@@ -9,7 +9,7 @@ const Question = ({ lng, questionNumber, handleSelectAnswer }) => {
   return (
     <div className='question'>
         <div className="question__title">
-            <h1>{t(`questions:${questionNumber}:question`)}</h1>
+            <h1 data-testid={`question-${questionNumber}`}>{t(`questions:${questionNumber}:question`)}</h1>
         </div>
 
         <div className="question__divider"></div>
@@ -18,7 +18,11 @@ const Question = ({ lng, questionNumber, handleSelectAnswer }) => {
             {answersLetters.map((letter) => {
                 return (
                     <div className="answer" key={letter} onClick={() => handleSelectAnswer(letter)}>
-                        <p className="answer__text">{t(`questions:${questionNumber}:${letter}`)}</p>
+                        <p 
+                            className="answer__text" 
+                            data-testid={`answer-${letter}`}>
+                                {t(`questions:${questionNumber}:${letter}`)}
+                        </p>
                     </div>
                 )
             })}

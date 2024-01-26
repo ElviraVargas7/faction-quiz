@@ -1,9 +1,17 @@
 @use "@/app/scss/constants" as *;
 
-.settings-button {
+.language {
     color: $yellow_stroke !important;
     font-weight: bold;
     font-size: 20px;
     border: 3px solid $yellow_stroke !important;
+    width: 100%;
+}
+
+.start {
+    color: $yellow_stroke;
+    font-weight: bold;
+    font-size: 20px;
+    border: 3px solid $yellow_stroke;
     width: 100%;
 }

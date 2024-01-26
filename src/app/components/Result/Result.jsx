@@ -2,8 +2,8 @@
 
 import "./Result.scss"
 import React, { useEffect, useState } from "react";
-import { useTranslation } from '@/app/i18n/client'
-import { faction } from "@/app/constants/factions";
+import { useTranslation } from '../../i18n/client'
+import { faction } from "../../constants/factions";
 import { useRouter } from 'next/navigation'
 
 const Result = ({ lng, answers }) => {
@@ -39,16 +39,31 @@ const Result = ({ lng, answers }) => {
     return (
         <div className="result">
             <div className="result__top-container">
-                <h1 className="result__top-container__faction">{t(`results:${resultingFaction}:faction`)}</h1>
+                <h1 
+                    className="result__top-container__faction"
+                    data-testid={`${resultingFaction}-title`}
+                >
+                    {t(`results:${resultingFaction}:faction`)}
+                </h1>
 
                 <div className="result__top-container__divider"></div>
 
-                <p className="result__top-container__explanation">{t(`results:${resultingFaction}:explanation`)}</p>
+                <p 
+                    className="result__top-container__explanation"
+                    data-testid={`${resultingFaction}-explanation`}
+                >
+                    {t(`results:${resultingFaction}:explanation`)}
+                </p>
             </div>
             
             <div className="result__home-container">
                 <div className="result__home-container__button" onClick={handleRedirectHome}>
-                    <p className="result__home-container__button__text">{t("home")}</p>
+                    <p 
+                        className="result__home-container__button__text"
+                        data-testid={"home-button"}
+                    >
+                        {t("home")}
+                    </p>
                 </div>
             </div>
         </div>
